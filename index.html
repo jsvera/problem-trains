@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trains - Problem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body class="container">
+    <h1 class="mt-5 text-center">Trains - Problem</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="text-center">Default entries</h2>
+            <div class="card shadow-sm mb-1">
+                <div class="card-header">Principal Output</div>
+                <div class="card-body text-primary">
+                    <h5 class="card-title">Output:</h5>
+                    <p class="card-text">...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2 class="text-center">Custom entries</h2>
+            <div class="card shadow-sm ">
+                <div class="card-header">Distance of the route</div>
+                <div class="card-body">
+                    <form id="formOne">
+                        <div class="input-group mb-3">
+                            <input type="text" autocomplete="off" id="txtFormOne" class="form-control" placeholder="Example: ABC" required>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">Response: <span id="respFormOne">...</span></small>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card shadow-sm ">
+                <div class="card-header">The number of trips between two Towns with a maximum of stops</div>
+                <div class="card-body">
+                    <form id="formTwo">
+                        <div class="input-group mb-3">
+                            <input type="text" autocomplete="off" id="txtFormTwo" class="form-control" placeholder="Example: CC3" required>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">Response: <span id="respFormTwo">...</span></small>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card shadow-sm ">
+                <div class="card-header">The number of trips between two Towns with an exact number of stops</div>
+                <div class="card-body">
+                    <form id="formThree">
+                        <div class="input-group mb-3">
+                            <input type="text" autocomplete="off" id="txtFormThree" class="form-control" placeholder="Example: AC4" required>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">Response: <span id="respFormThree">...</span></small>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card shadow-sm ">
+                <div class="card-header">The distance of the shortest route</div>
+                <div class="card-body">
+                    <form id="formFour">
+                        <div class="input-group mb-3">
+                            <input type="text" autocomplete="off" id="txtFormFour" class="form-control" placeholder="Example: AC" required>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">Response: <span id="respFormFour">...</span></small>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card shadow-sm ">
+                <div class="card-header">The number of different routes between two towns with maximum distance</div>
+                <div class="card-body">
+                    <form id="formFive">
+                        <div class="input-group mb-3">
+                            <input type="text" autocomplete="off" id="txtFormFive" class="form-control" placeholder="Example: CC" required>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">Response: <span id="respFormFive">...</span></small>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
